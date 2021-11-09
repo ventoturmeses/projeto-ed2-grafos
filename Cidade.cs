@@ -1,28 +1,41 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using static System.Environment;
 
 namespace apProjetoRotasTrem
 {
     class Cidade
     {
-        private int indice;
-        private string nome;
-        private double coordenadaX, coordenadaY;
+        private const int tamanhoNome = 16;
+        private const int tamanhoX = 5;
+        private const int tamanhoY = 5;
 
-        public Cidade(int indice, string nome, double coordenadaX, double coordenadaY)
+        private string nome;
+        private string coordenadaX, coordenadaY;
+
+        public Cidade(string nome, string coordenadaX, string coordenadaY)
         {
-            this.indice = indice;
             this.nome = nome;
             this.coordenadaX = coordenadaX;
             this.coordenadaY = coordenadaY;
+        }      
+        public Cidade(string linha)
+        {
+            nome = linha.Substring(0, tamanhoNome);
+            coordenadaX = linha.Substring(tamanhoNome, tamanhoX).Trim();
+            coordenadaY = linha.Substring(tamanhoNome + tamanhoX + 1, tamanhoY).Trim();
         }
 
-        public int Indice { get => indice; set => indice = value; }
         public string Nome { get => nome; set => nome = value; }
-        public double CoordenadaX { get => coordenadaX; set => coordenadaX = value; }
-        public double CoordenadaY { get => coordenadaY; set => coordenadaY = value; }
+        public string CoordenadaX { get => coordenadaX; set => coordenadaX = value; }
+        public string CoordenadaY { get => coordenadaY; set => coordenadaY = value; }
+
+        public override string ToString()
+        {
+            string ret = "";
+            ret += nome + NewLine;
+            ret += coordenadaX + NewLine;
+            ret += coordenadaY + NewLine;
+            return ret;
+        }
     }
 }

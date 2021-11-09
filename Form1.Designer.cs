@@ -37,6 +37,8 @@ namespace apProjetoRotasTrem
             // 
             // dgvGrafo
             // 
+            this.dgvGrafo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvGrafo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvGrafo.Location = new System.Drawing.Point(13, 54);
             this.dgvGrafo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -59,6 +61,8 @@ namespace apProjetoRotasTrem
             // 
             // txtSaida
             // 
+            this.txtSaida.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSaida.Location = new System.Drawing.Point(247, 14);
             this.txtSaida.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSaida.Name = "txtSaida";
@@ -77,6 +81,7 @@ namespace apProjetoRotasTrem
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvGrafo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
