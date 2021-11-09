@@ -1,0 +1,10 @@
+C:\COTUCA\4° Semestre\Estruturas de Dados II\apProjetoRotasTrem\bin\Debug\apProjetoRotasTrem.exe.config
+C:\COTUCA\4° Semestre\Estruturas de Dados II\apProjetoRotasTrem\bin\Debug\apProjetoRotasTrem.exe
+C:\COTUCA\4° Semestre\Estruturas de Dados II\apProjetoRotasTrem\bin\Debug\apProjetoRotasTrem.pdb
+C:\COTUCA\4° Semestre\Estruturas de Dados II\apProjetoRotasTrem\obj\Debug\apProjetoRotasTrem.csproj.AssemblyReference.cache
+C:\COTUCA\4° Semestre\Estruturas de Dados II\apProjetoRotasTrem\obj\Debug\apProjetoRotasTrem.Form1.resources
+C:\COTUCA\4° Semestre\Estruturas de Dados II\apProjetoRotasTrem\obj\Debug\apProjetoRotasTrem.Properties.Resources.resources
+C:\COTUCA\4° Semestre\Estruturas de Dados II\apProjetoRotasTrem\obj\Debug\apProjetoRotasTrem.csproj.GenerateResource.cache
+C:\COTUCA\4° Semestre\Estruturas de Dados II\apProjetoRotasTrem\obj\Debug\apProjetoRotasTrem.csproj.CoreCompileInputs.cache
+C:\COTUCA\4° Semestre\Estruturas de Dados II\apProjetoRotasTrem\obj\Debug\apProjetoRotasTrem.exe
+C:\COTUCA\4° Semestre\Estruturas de Dados II\apProjetoRotasTrem\obj\Debug\apProjetoRotasTrem.pdb
